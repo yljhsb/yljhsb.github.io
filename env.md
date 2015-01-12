@@ -33,14 +33,19 @@ setup user.name and password.
 
 ##### Macbook
 1 Installed Xcode command line tools
+
     xcode-select --install
     xcode-select -p # check tools location
     gcc --version   # also used to check the installation
+    
 It took about 20 minutes.
   
 2 Installed Homebrew
+
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 It is installed to /usr/local/bin
+
     brew doctor # check installation
     brew update
     brew list --version
