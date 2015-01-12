@@ -34,9 +34,11 @@ setup user.name and password.
 ##### Macbook
 1 Installed Xcode command line tools
 
-    xcode-select --install
-    xcode-select -p         # check tools location
-    gcc --version           # also used to check the installation
+```bash
+    $ xcode-select --install
+    $ xcode-select -p         # check tools location
+    $ gcc --version           # also used to check the installation
+```    
     
 It took about 20 minutes.
   
@@ -77,3 +79,4 @@ to avoid input user name and password every time.
 ### Tip and trick
 
 ### Meta
+this is meta
