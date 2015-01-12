@@ -18,6 +18,10 @@ It took about 1-2 hours.
 
 5 Did system updates.
 
+6 Learned about application
+* [How to Install Applications On a Mac: Everything You Need to Know](http://www.howtogeek.com/177619/how-to-install-applications-on-a-mac-everything-you-need-to-know/)
+* [Mac 101: The two Applications folders](http://www.tuaw.com/2010/12/03/mac-101-the-two-applications-folders/)
+
 ### Install and config
 
 ##### Github
