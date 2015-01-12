@@ -44,34 +44,44 @@ It took about 20 minutes.
   
 2 Installed Homebrew
 
+```bash
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 It is installed to /usr/local/bin
 
+```bash
 $ brew doctor             # check installation
 $ brew update
 $ brew list --version
 $ echo $PATH              # check that /usr/lcoal/bin is ahead of /usr/bin
- 
+```
+
 3 Installed git
 It is better to use git installed by brew than Xcode which located in /usr/bin, 
 because the former could be updated.
 
 Before the installation:
 
+```bash
 $ git --version           # 1.9.3
 $ brew install git        # install
 $ git -- version          # 2.2.1, run in another terminal
+```
 
 Setup user.name and user.email by [Categories/Setup](https://help.github.com/categories/setup/)
 
+```bash
 $ git config --global user.name   "xxx"
 $ git config --global user.email  "xxx@email.com"
+```
 
 Cache password by [Caching your GitHub password in Git](https://help.github.com/articles/caching-your-github-password-in-git/#platform-mac)
 to avoid input user name and password every time.
 
+```bash
 $ git config --global credential.helper osxkeychain
+```
 
 ### Concept and command
 
