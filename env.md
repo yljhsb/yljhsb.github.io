@@ -67,8 +67,8 @@ $ git -- version          # 2.2.1, run in another terminal
     
 Setup user.name and user.email by [Categories/Setup](https://help.github.com/categories/setup/)
 
-$ git config --global user.name "xxx"
-$ git config --global user.email "xxx@email.com"
+$ git config --global user.name   "xxx"
+$ git config --global user.email  "xxx@email.com"
 
 Cache password by [Caching your GitHub password in Git](https://help.github.com/articles/caching-your-github-password-in-git/#platform-mac)
 to avoid input user name and password every time.
