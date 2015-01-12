@@ -39,7 +39,7 @@ $ xcode-select --install
 $ xcode-select -p         # check tools location
 $ gcc --version           # also used to check the installation
 ```    
-    
+
 It took about 20 minutes.
   
 2 Installed Homebrew
@@ -52,8 +52,7 @@ $ brew doctor             # check installation
 $ brew update
 $ brew list --version
 $ echo $PATH              # check that /usr/lcoal/bin is ahead of /usr/bin
-
-    
+ 
 3 Installed git
 It is better to use git installed by brew than Xcode which located in /usr/bin, 
 because the former could be updated.
@@ -64,7 +63,6 @@ $ git --version           # 1.9.3
 $ brew install git        # install
 $ git -- version          # 2.2.1, run in another terminal
 
-    
 Setup user.name and user.email by [Categories/Setup](https://help.github.com/categories/setup/)
 
 $ git config --global user.name   "xxx"
