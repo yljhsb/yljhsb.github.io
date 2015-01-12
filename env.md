@@ -35,9 +35,9 @@ setup user.name and password.
 1 Installed Xcode command line tools
 
 ```bash
-    $ xcode-select --install
-    $ xcode-select -p         # check tools location
-    $ gcc --version           # also used to check the installation
+$ xcode-select --install
+$ xcode-select -p         # check tools location
+$ gcc --version           # also used to check the installation
 ```    
     
 It took about 20 minutes.
