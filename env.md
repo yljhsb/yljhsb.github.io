@@ -141,6 +141,22 @@ $ brew install node
 $ node -v # check
 $ npm -v  # check	
 ```
+6 NoSQL
+
+```bash
+$ brew install mongo
+$ mongo --version 	 # check
+$ brew install redis
+$ redis-server --version # check
+```
+Also the following could be done if want to start the services at login
+
+```bash
+$ ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+$ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+```
 
 ### Concept and command
 
