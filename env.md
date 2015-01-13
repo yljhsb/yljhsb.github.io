@@ -157,6 +157,12 @@ $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 $ ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 ```
+7 phantomjs
+
+```bash 
+$ brew install phantomjs
+$ phantomjs -v # check
+```
 
 ### Concept and command
 
