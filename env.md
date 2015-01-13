@@ -135,7 +135,7 @@ CREATE EXTENSION postgis_tiger_geocoder;
 ```
 5 Node and npm
 
-'''bash
+```bash
 $ brew install node
 $ node -v # check
 $ npm -v  # check	
