@@ -61,6 +61,7 @@ $ brew update
 $ brew list --version
 $ echo $PATH              # check that /usr/lcoal/bin is ahead of /usr/bin
 ```
+It is good to run `brew update` whenever install new packages
 
 3 Installed git
 It is better to use git installed by brew than Xcode which located in /usr/bin, 
