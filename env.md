@@ -102,6 +102,7 @@ $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 $ ps auxwww | grep postgres	# to verify that the postgres process is started
 ```
 
+Use `launchctl unload` to unload Postgresql. 
 ```bash
 $ brew install postgis
 ```
