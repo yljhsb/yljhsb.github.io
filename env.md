@@ -133,6 +133,13 @@ CREATE EXTENSION fuzzystrmatch;
 CREATE EXTENSION postgis_tiger_geocoder;
 \dx # to list all instlled extensions
 ```
+5 Node and npm
+
+'''bash
+$ brew install node
+$ node -v # check
+$ npm -v  # check	
+```
 
 ### Concept and command
 
