@@ -23,7 +23,11 @@ It took about 1-2 hours.
 * [Mac 101: The two Applications folders](http://www.tuaw.com/2010/12/03/mac-101-the-two-applications-folders/)
 
 7 [launchd](http://launchd.info)
+
+8 [OS X: Keyboard shortcuts ](http://support.apple.com/en-us/HT201236)
 ### Install and config
+
+8 Created ~/Applications folder, installed iTerm, [Spectacle](http://apple.stackexchange.com/questions/9659/what-window-management-options-exist-for-os-x), Sublime Text.
 
 ##### Github
 1 Created Github account, created a repository for the account by 
