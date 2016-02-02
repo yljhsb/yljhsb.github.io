@@ -59,6 +59,7 @@ tagging | git tag
 
 branch, a movable pointer (HEAD) to one of these commits, default branch: master  
 commit object --- pointer to snapshot, email/name/message, pointer to parents commits  
+
 description | command
 ------------| -------
 creating new branch | git branch xxx
