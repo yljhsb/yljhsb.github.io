@@ -15,11 +15,14 @@ ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY
 5.  other security operations: disable root login, disable password login, limit access for ~/.ssh and files
 
 ### git
+[Pro Git](https://git-scm.com/book/en/v2)  
 bare central storage repo + distributed repos  
-layers --- working area + staging area + committed area  
+snapshots, nearly every operation is local, integrity`check-summed`  
+states --- working area + staging area + committed area  
 files --- untracked, tracked (unmodified, modified, staged)
 
 <p align="center">
+    <img src="https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png" width="576"/>
     <img src="https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png" width="576"/>
 </p>
 
