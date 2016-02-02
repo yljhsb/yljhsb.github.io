@@ -74,6 +74,7 @@ topic branch --- issues, bugs, hotfix, single feature, could be deleted after me
 * [google git branching model](https://www.google.com/search?q=successful+git+branching+model&ie=utf-8&oe=utf-8)
 * [a successful git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 * [comparing workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow)  
+
 remote branch  
 rebasing  
 
