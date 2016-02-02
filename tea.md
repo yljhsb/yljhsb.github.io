@@ -9,7 +9,10 @@ ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY
     input passphrase, private key in ~/.ssh/id_rsa, public key in ~/.ssh/id_rsa.pub
 2.  copy the public key into server//~/.ssh/authorized_keys
 3.  login `ssh user@server` without password, still passphrase is needed
-4.  other security operations: disable root login, disable password login, limit access for ~/.ssh and files
+4.  to test private/public key pair, `ssh-keygen -y -f <private key file>`, 
+    [How do you test a public/private DSA        
+    keypair?](http://stackoverflow.com/questions/274560/how-do-you-test-a-public-private-dsa-keypair)
+5.  other security operations: disable root login, disable password login, limit access for ~/.ssh and files
 
 ### git
 ### command line
