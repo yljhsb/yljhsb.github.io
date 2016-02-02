@@ -3,6 +3,7 @@
 ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY  
 
 1.  generate keys
+
     ```
     ssh-keygen -t rsa
     ```
