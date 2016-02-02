@@ -262,6 +262,7 @@ ref
 ### markdown
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * https://github.github.com/github-flavored-markdown/sample_content.html
+* https://guides.github.com/features/mastering-markdown/#intro
 
 # env
 
