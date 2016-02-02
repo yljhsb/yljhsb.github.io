@@ -1,6 +1,15 @@
 # tool
 ### ssh
-ssh `client login to server`
+ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY  
+1.  generate keys
+    ```
+    ssh-keygen -t rsa
+    ```
+    input passphrase, private key in ~/.ssh/id_rsa, public key in ~/.ssh/id_rsa.pub
+2.  copy the public key into server//~/.ssh/authorized_keys
+3.  login `ssh user@server` without password, still passphrase is needed
+4.  other security operations: disable root login, disable password login, limit access for ~/.ssh and files
+
 ### git
 ### command line
 key | description
