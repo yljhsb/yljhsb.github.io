@@ -57,6 +57,43 @@ remote push | git push
 remote inspect | git remote show
 tagging | git tag
 
+branch, a movable pointer (HEAD) to one of these commits, default branch: master  
+commit object --- pointer to snapshot, email/name/message, pointer to parents commits  
+description | command
+------------| -------
+creating new branch | git branch xxx
+switching branch | git checkout xxx
+merging branch | git merge xxx
+listing | git branch -v --merged, --no-merged
+
+branching workflow:  
+master branch --- stable code  
+dev branch --- work, test,when stabled, merged into master  
+topic branch --- issues, bugs, hotfix, single feature, could be deleted after merging into main branch  
+remote branch  
+rebasing  
+
+git process:
+
+1.  config, user name, email
+2.  determine central repo, github, bitbucket or local folder
+3.  create a new repo, or convert an existing working folder into a git repo or clone a repo from a remote repo
+4.  start working, create/copy .gitignore file
+5.  work flow
+        1. git status
+        2. git add .
+        3. git commit -m "comment"
+        4. git log
+6.  branching work flow
+        1. git checkout -b new-branch
+        2. normal work flow
+        3. git checkout master
+        4. git merge new-branch
+7.  after config remote repo
+        1. git pull
+        2. git push
+
+
 
 ### command line
 key | description
