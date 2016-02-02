@@ -116,6 +116,7 @@ ctrl+l | clear the screen
 ### vim
 installation, vim --version, sudo apt-get install vim  
 move  
+
 1.  hjkl
 2.  ctrl+f: down full screen, crtl+b: up full screen, crtl+d down half, ctrl+u: up half, ctrl+e: down, crtl+y: up
 3.  gg: start, G:end, NG: goto line N, N%: go by percent, ctrl+G: current position, HML
@@ -132,6 +133,7 @@ move
 14. t/T
 
 text object selection  
+
 1.  i: inside, diw, a: inclusive, daw
 2.  html tag, cit/cat, vit/vat
 3.  parenthesis block, vib/vab
@@ -141,6 +143,7 @@ text object selection
 7.  delete around - daw, change inside - ciw
 
 vim 风格 act/repeat/reverse  
+
 1.  change . u
 2.  f{c} ; ,
 3.  t{c} ; ,
@@ -155,6 +158,7 @@ c, d, y, g~, gu gU, >, <, =, !
 one key to move, one key to execute  
 
 normal mode  
+
 1.  u: undo
 2.  daw, repeatable
 3.  <c-a> plus, <c-x> minus, css editing
@@ -163,12 +167,14 @@ normal mode
 6.  operator + motion = action
 
 insert mode  
+
 1.  change without leave: backspace, <c-h>(backspace), <c-w>(delete back one word), <c-u>(delete back to start)
 2.  <c-o> enter insert normal mode, like <c-o>ZZ, after y <c-r>o
 3.  R replace mode
 4.  r single replace mode
 
 visual mode  
+
 1.  v: char visual mode
 2.  V: line visual mode
 3.  <c-v>: block visual mode
@@ -179,12 +185,14 @@ visual mode
 8.  c, A, I
 
 command line mode  
+
 1.  : :[range]command[address]
 2.  range: !, $, 0, ., 'm, '<, '>, %
 3.  command: delete, yank, put, copy, move, join
 4.  t - copy, m - move
 
 multiple files  
+
 1.  netrw plugin
 2.  vim . file explorer
 3.  :e / :E
@@ -202,6 +210,7 @@ multiple files
 15. resize use mouse
 
 work flow  
+
 1.  multiple tab/multiple win
 2.  explorer
 3.  matchit, tag
@@ -209,17 +218,20 @@ work flow
 5.  page up/down
 
 indent  
+
 1.  :filetype indent on
 2.  :set filetype=html
 3.  set smartindent
 4.  gg=G
 
 fold/unfold, outline  
+
 1.  za/zc/zo, zR/zM, zj/zk
 
 :%s/old/new/gc
 
 ref  
+
 1.  help, :help <command>, :h, /quick quick help, ctrl+I enter, crtl+T exit
 2.  reference manual - basic editing
 3.  book: practical vim
