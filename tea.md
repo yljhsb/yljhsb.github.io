@@ -2,6 +2,10 @@ Table of Contents
 =================
 * [tool](#tool)  
     * [ssh](#ssh)
+    * [git](#git)
+    * [vim](#vim)
+    * [command](#commandline)
+    * [linux](#linux)
 * [env](#env)  
 * [app](#app)  
 
@@ -22,6 +26,7 @@ ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY
     (http://stackoverflow.com/questions/274560/how-do-you-test-a-public-private-dsa-keypair)
 5.  other security operations: disable root login, disable password login, limit access for ~/.ssh and files
 
+<a name="git"/>
 ### git
 [Pro Git](https://git-scm.com/book/en/v2)  
 bare central storage repo + distributed repos  
@@ -106,6 +111,7 @@ git process:
         1. git pull
         2. git push
 
+<a name="commandline"/>
 ### command line
 key | description
 :--- | :---
@@ -121,6 +127,7 @@ ctrl+h | delete back one letter (backspace)
 ctrl+- | undo cut
 ctrl+l | clear the screen
 
+<a name="vim"/>
 ### vim
 installation, vim --version, sudo apt-get install vim  
 move  
@@ -244,6 +251,7 @@ ref
 2.  reference manual - basic editing
 3.  book: practical vim
 
+<a name="linux"/>
 ### linux
 * apt-get
 * ps
