@@ -1,6 +1,6 @@
 # tool
 ### ssh
-ssh 'client login to server'
+ssh `client login to server`
 ### git
 ### command line
 key | description
@@ -21,8 +21,8 @@ ctrl+l | clear the screen
 * apt-get
 * ps
 * file permission
-* top 'shift+f'
-* less 'shift+f'
+* top `shift+f`
+* less `shift+f`
 
 # env
 
