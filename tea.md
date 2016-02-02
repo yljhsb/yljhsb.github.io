@@ -17,8 +17,11 @@ ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY
 ### git
 bare central storage repo + distributed repos  
 layers --- working area + staging area + committed area  
-files --- untracked, tracked (unmodified, modified, staged)  
-<img src="https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png" width="576"/>
+files --- untracked, tracked (unmodified, modified, staged)
+
+<p align="center">
+    <img src="https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png" width="576"/>
+</p>
 
 ### command line
 key | description
