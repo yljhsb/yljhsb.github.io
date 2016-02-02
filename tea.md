@@ -5,7 +5,7 @@ ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY
 1.  generate keys
     ```
     ssh-keygen -t rsa
-    ```
+    ```  
     input passphrase, private key in ~/.ssh/id_rsa, public key in ~/.ssh/id_rsa.pub
 2.  copy the public key into server//~/.ssh/authorized_keys
 3.  login `ssh user@server` without password, still passphrase is needed
