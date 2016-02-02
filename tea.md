@@ -22,7 +22,8 @@ three states --- working area + staging area + committed area
 <p align="center">
     <img src="https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png" width="576"/>
 </p>
-The basic Git workflow goes something like this:  
+The basic Git workflow goes something like this:
+
 1.  You modify files in your working directory.
 2.  You stage the files, adding snapshots of them to your staging area.
 3.  You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
@@ -31,6 +32,31 @@ files --- untracked, tracked (unmodified, modified, staged)
 <p align="center">
     <img src="https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png" width="576"/>
 </p>
+
+description | command
+------------| -------
+setup | git config --list
+help | git help config 
+init | git init
+clone | git clone
+ignore | .gitignore
+check status | git status
+check changes | git diff
+staginge | git add
+committing | git commit
+removing file | git rm, then commit
+renaming file | git mv, then commit
+view commit history | git log
+amend prev commit | git commit --amend
+unstage file | git reset
+unmodify file | git checkout
+remote | git remote
+remote add | git remote add
+remote fetch | git fetch
+remote push | git push
+remote inspect | git remote show
+tagging | git tag
+
 
 ### command line
 key | description
