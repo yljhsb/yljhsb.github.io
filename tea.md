@@ -18,11 +18,17 @@ ssh, client(private key, passphrase) log into server(public key), OpenSSH, PuTTY
 [Pro Git](https://git-scm.com/book/en/v2)  
 bare central storage repo + distributed repos  
 snapshots, nearly every operation is local, integrity`check-summed`  
-states --- working area + staging area + committed area  
-files --- untracked, tracked (unmodified, modified, staged)
-
+three states --- working area + staging area + committed area  
 <p align="center">
     <img src="https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png" width="576"/>
+</p>
+The basic Git workflow goes something like this:  
+1.  You modify files in your working directory.
+2.  You stage the files, adding snapshots of them to your staging area.
+3.  You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+
+files --- untracked, tracked (unmodified, modified, staged)
+<p align="center">
     <img src="https://git-scm.com/book/en/v2/book/02-git-basics/images/lifecycle.png" width="576"/>
 </p>
 
