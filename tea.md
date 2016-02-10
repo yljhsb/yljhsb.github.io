@@ -47,6 +47,16 @@ gem install rails -v 4.2.2
 cd ~/projects
 rails _4.2.2_ new hello_app
 ```
+<a name="project.setup"/>
+### project setup
+one server for dev, git, web. simple  
+```
+cd ~\projects
+rails _4.2.2_ new project
+cd project
+rails server # now the app is running at http://localhost:3000
+# config nginx as reverse proxy to localhost:3000 and restart nginx
+# then the app is accessible at http://ip/app
 
 # tool
 <a name="ssh"/>
