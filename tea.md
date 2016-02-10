@@ -1,13 +1,52 @@
 Table of Contents
 =================
+* [app](#app)  
+* [env](#env)  
 * [tool](#tool)  
     * [ssh](#ssh)
     * [git](#git)
     * [vim](#vim)
     * [command](#commandline)
     * [linux](#linux)
-* [env](#env)  
-* [app](#app)  
+
+
+
+
+# app
+
+# env
+<a name="ror"/>
+### ror setup
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-14-04  
+https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-unicorn-and-nginx-on-ubuntu-14-04  
+https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-14-04
+```
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+
+cd
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+
+git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+# Note: On Ubuntu Desktop, replace all occurrences .bash_profile in the above code block with .bashrc.
+
+# used 2.1.2 per http://stackoverflow.com/questions/23155289/rbenv-build-failed-on-ubuntu-14-04
+rbenv install -v 2.2.1
+rbenv global 2.2.1
+echo "gem: --no-document" > ~/.gemrc
+gem install bundler
+gem install rails
+rbenv rehash
+
+# install rails with specific version per http://stackoverflow.com/questions/9771172/rbenv-surviving-without-gemsets?lq=1
+gem install rails -v 4.2.2
+cd ~/projects
+rails _4.2.2_ new hello_app
+```
 
 # tool
 <a name="ssh"/>
@@ -263,7 +302,3 @@ ref
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * https://github.github.com/github-flavored-markdown/sample_content.html
 * https://guides.github.com/features/mastering-markdown/#intro
-
-# env
-
-# app
