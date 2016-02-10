@@ -58,7 +58,7 @@ rails server # now the app is running at http://localhost:3000
 # config nginx as reverse proxy to localhost:3000 and restart nginx
 # then the app is accessible at http://ip/app
 ```
-https://www.nginx.com/resources/admin-guide/
+https://www.nginx.com/resources/admin-guide/  
 http://stackoverflow.com/questions/33403358/multiple-rails-apps-over-nginx-reverse-proxy
 
 # tool
