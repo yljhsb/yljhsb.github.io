@@ -57,6 +57,7 @@ cd project
 rails server # now the app is running at http://localhost:3000
 # config nginx as reverse proxy to localhost:3000 and restart nginx
 # then the app is accessible at http://ip/app
+```
 
 # tool
 <a name="ssh"/>
