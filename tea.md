@@ -57,9 +57,26 @@ cd project
 rails server # now the app is running at http://localhost:3000
 # config nginx as reverse proxy to localhost:3000 and restart nginx
 # then the app is accessible at http://ip/app
+
+# commands
+# Gemfile
+bundle install --without production
+rails server
+# scaffolding
+rails generate scaffold User name:string email:string
+# rake
 ```
 https://www.nginx.com/resources/admin-guide/  
 http://stackoverflow.com/questions/33403358/multiple-rails-apps-over-nginx-reverse-proxy
+
+<a name=""/>
+### project structure
+RESTful, request ---> resource ---> response  
+resource ___ router ( config/routes.rb )  
+         |__ controller ( app/controllers/users_controller.rb )  
+         |__ model ( app/models/user.rb )  
+         |__ view (app/views/users/index.html.erb, edit.html.erb, show.html.erb, new.html.erb ...)  
+RESTful routes: HTTP request --- URL --- Controller Action           
 
 <a name="naming"/>
 ### naming
