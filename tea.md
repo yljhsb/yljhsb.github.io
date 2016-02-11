@@ -61,6 +61,9 @@ rails server # now the app is running at http://localhost:3000
 https://www.nginx.com/resources/admin-guide/  
 http://stackoverflow.com/questions/33403358/multiple-rails-apps-over-nginx-reverse-proxy
 
+<a name="naming"/>
+### naming
+
 # tool
 <a name="ssh"/>
 ### ssh
