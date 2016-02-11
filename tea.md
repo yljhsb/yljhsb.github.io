@@ -72,10 +72,12 @@ http://stackoverflow.com/questions/33403358/multiple-rails-apps-over-nginx-rever
 <a name=""/>
 ### project structure
 RESTful, request ---> resource ---> response  
+```
 resource ___ router ( config/routes.rb )  
          |__ controller ( app/controllers/users_controller.rb )  
          |__ model ( app/models/user.rb )  
          |__ view (app/views/users/index.html.erb, edit.html.erb, show.html.erb, new.html.erb ...)  
+```         
 RESTful routes: HTTP request --- URL --- Controller Action           
 
 <a name="naming"/>
