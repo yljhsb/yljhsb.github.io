@@ -301,6 +301,7 @@ multiple files
 6.  <c-w>T (shift-t) multiple win to multiple tab
 7.  :tabc[lose] close current tab
 8.  :tabo[nly] keep the current tab
+9.  switch tab: gt, gT
 9.  switch and move use mouse
 10. <c-w>s, <c-w>v, :split {file}, :vsp[lit] {file}
 11. <c-w>w cycle or <c-w><c-w>
