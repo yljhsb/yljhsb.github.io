@@ -14,6 +14,15 @@ Table of Contents
 
 # app
 
+<a name="commands"/>
+### commands
+```
+# generate controller
+rails generate controller StaticPages home help
+# undo
+rails destroy controller StaticPages home help
+```
+
 # env
 <a name="ror"/>
 ### ror setup
@@ -204,11 +213,13 @@ ctrl+l | clear the screen
 <a name="vim"/>
 ### vim
 installation, vim --version, sudo apt-get install vim  
+
 move  
 
 1.  hjkl
 2.  ctrl+f: down full screen, crtl+b: up full screen, crtl+d down half, ctrl+u: up half, ctrl+e: down, crtl+y: up
 3.  gg: start, G:end, NG: goto line N, N%: go by percent, ctrl+G: current position, HML
+4.  '' or `` move cursor to last position, :help mark-motions
 4.  w/e, W/E, b, B, ^, 0, $, %
 5.  /pattern search, n/N
 6.  u: undo, crtl+r: redo
