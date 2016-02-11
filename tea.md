@@ -309,6 +309,7 @@ multiple files
 13. <c-w>c close
 14. <c-w>o only keep current one
 15. resize use mouse
+16. qa, wqa to quit all tabs
 
 work flow  
 
