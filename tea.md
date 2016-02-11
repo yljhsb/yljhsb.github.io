@@ -206,9 +206,12 @@ alt+b | backward by a word
 ctrl+k | cut to the end of the line
 ctrl+u | cut the the start of the line
 ctrl+w | delete back one word
+alt+d  | delete foward one word
 ctrl+h | delete back one letter (backspace)
 ctrl+- | undo cut
 ctrl+l | clear the screen
+
+http://askubuntu.com/questions/45521/how-to-navigate-long-commands-faster
 
 <a name="vim"/>
 ### vim
