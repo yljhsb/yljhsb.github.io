@@ -22,6 +22,11 @@ rails generate controller StaticPages home help
 # undo
 rails destroy controller StaticPages home help
 ```
+1. manually added action about, contact by modifying app/controllers/static_pages_controller.rb
+   and config/routes.rb
+2. app/helpers/application_helper.rb helper functions
+3. css, bootstrap, modify Gemfile, bundle install, create app/assets/stylesheets/custom.css.scss
+4. app/views/layout application.html.erb, _shim.html.erb, _header.html.erb, _footer.html.erb
 
 # env
 <a name="ror"/>
