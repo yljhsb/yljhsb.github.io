@@ -353,6 +353,7 @@ ref
 * file permission
 * top `shift+f`
 * less `shift+f`
+* kill -9 (force) -15 (gracefully) pid
 
 ### markdown
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
