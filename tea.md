@@ -28,6 +28,11 @@ rails destroy controller StaticPages home help
 3. css, bootstrap, modify Gemfile, bundle install, create app/assets/stylesheets/custom.css.scss
 4. app/views/layout application.html.erb, _shim.html.erb, _header.html.erb, _footer.html.erb
 
+http://guides.rubyonrails.org/asset_pipeline.html  
+http://stackoverflow.com/questions/17350524/how-do-i-add-jquery-plugins-on-my-rails-app  
+http://railsapps.github.io/rails-javascript-include-external.html  
+http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast  
+
 # env
 <a name="ror"/>
 ### ror setup
