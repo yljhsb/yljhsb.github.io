@@ -270,6 +270,15 @@ c, d, y, g~, gu gU, >, <, =, !
 
 one key to move, one key to execute  
 
+case (operator + movement)  
+1.  g~ toggle
+2.  gU uppercase
+3.  gu lowercase
+4.  ~ toggle char under the cursor
+5.  3~ toggle next three chars
+6.  g~iw toggle case of current word
+7.  g~~ toggle case of current line
+
 normal mode  
 
 1.  u: undo
