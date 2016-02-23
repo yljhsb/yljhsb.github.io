@@ -271,6 +271,7 @@ c, d, y, g~, gu gU, >, <, =, !
 one key to move, one key to execute  
 
 case (operator + movement)  
+
 1.  g~ toggle
 2.  gU uppercase
 3.  gu lowercase
