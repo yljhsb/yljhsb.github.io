@@ -1,6 +1,7 @@
 Table of Contents
 =================
 * [app](#app)  
+* [know](#know)  
 * [env](#env)  
 * [tool](#tool)  
     * [ssh](#ssh)
@@ -32,6 +33,9 @@ http://guides.rubyonrails.org/asset_pipeline.html
 http://stackoverflow.com/questions/17350524/how-do-i-add-jquery-plugins-on-my-rails-app  
 http://railsapps.github.io/rails-javascript-include-external.html  
 http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast  
+
+# know
+
 
 # env
 <a name="ror"/>
