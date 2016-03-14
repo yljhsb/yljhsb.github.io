@@ -35,6 +35,12 @@ http://railsapps.github.io/rails-javascript-include-external.html
 http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast  
 
 # know
+<a name="css"/>
+### css
+
+
+<a name="javascript"/>
+### javascript
 
 
 # env
