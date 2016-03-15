@@ -37,18 +37,21 @@ http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciica
 # know
 <a name="css"/>
 ### css  
-box model, layout  
-html/dom elements are all boxes, rectangle boxes, each tag/element has default box type  
+box model, layout, html/dom elements are all boxes, rectangle boxes, each tag/element has default box type, natural flow  
+
 display  
 
-1. inline 
-2. block
-3. none
-4. inline-block
+1. inline, sits inline, flow horizontlly, not vertically, margin and padding only work horizontally, no width/height
+2. block, not sits inline, flow vertically, has width/height, margin/padding work, by default, width takes all space 
+3. none, diff visibility
+4. inline-block, just like inline, but has width and height
 5. table
 6. flex
 
- 
+position  
+
+1. static(default), natural flow, except this, all are "positioned"
+2. relative, relative to original position, top/right/bottom/left, z-index
 
 
 <a name="javascript"/>
