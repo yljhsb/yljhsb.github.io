@@ -40,6 +40,7 @@ http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciica
 box model, layout  
 html/dom elements are all boxes, rectangle boxes, each tag/element has default box type  
 display  
+
 1. inline 
 2. block
 3. none
