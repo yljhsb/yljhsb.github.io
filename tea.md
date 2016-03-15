@@ -36,7 +36,18 @@ http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciica
 
 # know
 <a name="css"/>
-### css
+### css  
+box model, layout  
+html/dom elements are all boxes, rectangle boxes, each tag/element has default box type  
+display  
+1. inline 
+2. block
+3. none
+4. inline-block
+5. table
+6. flex
+
+ 
 
 
 <a name="javascript"/>
