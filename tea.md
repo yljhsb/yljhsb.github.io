@@ -64,6 +64,17 @@ layout and media query
 
 定势  
 
+reference:  
+css-tricks, learn css layout, css|MDN  
+https://css-tricks.com/almanac/  
+https://css-tricks.com/almanac/properties/d/display/  
+https://css-tricks.com/almanac/properties/p/position/  
+https://css-tricks.com/almanac/properties/f/float/  
+https://css-tricks.com/the-css-box-model/  
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/  
+http://learnlayout.com/clear.html  
+https://developer.mozilla.org/en-US/docs/Web/CSS  
+
 
 
 
