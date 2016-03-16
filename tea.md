@@ -63,20 +63,20 @@ box model, margin|border|padding|content, box-sizing
 layout and media query  
 
 定势  
-1. center 
-   https://css-tricks.com/centering-css-complete-guide/,       
-   https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/
-2. layout  
-   https://css-tricks.com/guide-responsive-friendly-css-columns/
-3. table  
-   https://css-tricks.com/complete-guide-table-element/  
-4. design and style
-   https://css-tricks.com/design-systems-building-future/  
-   https://css-tricks.com/css-style-guides/  
-5. sprite
-   https://css-tricks.com/css-sprites/  
-6. font
-   https://css-tricks.com/snippets/css/using-font-face/
+1.  center 
+    https://css-tricks.com/centering-css-complete-guide/,       
+    https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/
+2.  layout  
+    https://css-tricks.com/guide-responsive-friendly-css-columns/
+3.  table  
+    https://css-tricks.com/complete-guide-table-element/  
+4.  design and style
+    https://css-tricks.com/design-systems-building-future/  
+    https://css-tricks.com/css-style-guides/  
+5.  sprite
+    https://css-tricks.com/css-sprites/  
+6.  font
+    https://css-tricks.com/snippets/css/using-font-face/
 
 reference:  
 css-tricks, learn css layout, css|MDN  
