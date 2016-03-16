@@ -63,7 +63,8 @@ box model, margin|border|padding|content, box-sizing
 layout and media query  
 
 定势  
-1.  center 
+
+1.  center  
     https://css-tricks.com/centering-css-complete-guide/,       
     https://css-tricks.com/forums/topic/horizontal-centering-of-an-absolute-element/
 2.  layout  
