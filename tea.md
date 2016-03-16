@@ -70,12 +70,12 @@ layout and media query
     https://css-tricks.com/guide-responsive-friendly-css-columns/
 3.  table  
     https://css-tricks.com/complete-guide-table-element/  
-4.  design and style
+4.  design and style  
     https://css-tricks.com/design-systems-building-future/  
     https://css-tricks.com/css-style-guides/  
-5.  sprite
+5.  sprite  
     https://css-tricks.com/css-sprites/  
-6.  font
+6.  font  
     https://css-tricks.com/snippets/css/using-font-face/
 
 reference:  
