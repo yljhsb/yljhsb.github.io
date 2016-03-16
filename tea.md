@@ -41,6 +41,7 @@ element is box, rectangle box, natural flow, either from left to right (inline),
 element position, box, size, background, content, overflow, color, font, ...  
 
 element tag (default) and display:  
+
 1. inline, from left to right, flow horizontlly, not vertically, margin and padding only work horizontally, no width/height
 2. block, from top to bottom, flow vertically, has width/height, margin/padding work, by default, width takes all space 
 3. none, diff visibility
@@ -51,7 +52,19 @@ element tag (default) and display:
 element position  
 
 1. static(default), natural flow, except this, all are "positioned"
-2. relative, relative to original position, top/right/bottom/left, z-index
+2. relative, relative to original position, top/right/bottom/left, z-index, still in the flow (affects others)
+3. absolute, relative to positioned parent, top/right/bottom/left, out of the flow (not affects others)
+4. fixed, relative to the viewport, top/right/bottom/left, out of the flow
+5. float, left/right, still in the flow, clear
+ 
+flex  
+
+box model, margin|border|padding|content, box-sizing  
+layout and media query  
+
+定势  
+
+
 
 
 <a name="javascript"/>
